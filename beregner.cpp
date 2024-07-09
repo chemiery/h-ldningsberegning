@@ -69,7 +69,7 @@ int main()
     const char* wcsURL = "https://api.dataforsyningen.dk/dhm_wcs_DAF?service=WCS";
     const char* wcsLayer = "DHM_Overflade";
     const char* bboxStr = "10.0,54.0,15.0,57.0"; // Define your bounding box here (example coordinates)
-    const char* token = "1d758ff07d7b45cc764053b5b585806c";
+    const char* token = "";
     const char* inputFilename = "input_dem.tif";
     const char* slopeFilename = "output_slope.tif";
 
